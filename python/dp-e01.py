@@ -9,3 +9,13 @@ if __name__ == '__main__':
     username = input("Username >> ")
 
     print_details(name, age, username)
+
+
+class MyClass(object):
+    def __int__(self, name, owner, uid, breed, animal_type, likes_cats):
+        self.name = name
+        self.owner = owner
+        self.uid = uid
+        self.breed = breed
+        self.animal_type = animal_type
+        self.likes_cats = likes_cats
