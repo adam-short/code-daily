@@ -11,8 +11,8 @@ if __name__ == '__main__':
         print("Usage: TYPE PRINCIPAL RATE PERIODS")
 
     if argv[1] == 'simple':
-        print(simple_interest(**argv[2:]))
+        print(simple_interest(*argv[2:]))
     elif argv[1] == 'compound':
-        print(compound_interest(**argv[2:]))
+        print(compound_interest(*argv[2:]))
     else:
         print('')

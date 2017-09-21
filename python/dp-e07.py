@@ -26,7 +26,7 @@ def break_on_slash(inp):
     return inp.split(' / ')
 
 def decrypt(inp):
-    morse_sentence = break_on_slash(sys.argv[1])
+    morse_sentence = break_on_slash(inp)
     translated = translate(morse_sentence)
     return translated
 
