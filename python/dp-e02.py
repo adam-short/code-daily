@@ -1,4 +1,4 @@
-from system import argv
+from sys import argv
 
 def simple_interest(principal, rate, periods):
     return principal * (rate / 100) * periods
