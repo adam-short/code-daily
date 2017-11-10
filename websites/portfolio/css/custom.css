@@ -1,0 +1,72 @@
+html,
+body {
+    height: 100%;
+    color: white;
+}
+
+p {
+    max-width: 700px;
+    letter-spacing: 1.25px;
+    padding-bottom: 10px;
+}
+
+.main-bg-color {
+    background: #323539;
+}
+
+.pad-all-sides {
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.navlinks a {
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    margin: 0 20px;
+    font-size: 1.1rem;
+}
+
+.small-filler {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.stats-bar {
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: row;
+    width: 50%;
+    height: 10%;
+    margin-left: -15%;
+}
+
+.stats {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.intro {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.html-tag {
+    color: #F44D62;
+    font-weight: 700;
+}
+
+p+.html-tag {
+    display: block;
+    margin-top: -10px;
+}
