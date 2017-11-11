@@ -1,23 +1,30 @@
-# ![RealWorld Example App](logo.png)
+# realworld-vue
 
-> ### VueJS/VueX  codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) spec and API.
+> A Vue.js project
 
+## Build Setup
 
-### [Demo](https://github.com/gothinkster/realworld)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/gothinkster/realworld)
+``` bash
+# install dependencies
+npm install
 
+# serve with hot reload at localhost:8080
+npm run dev
 
-This codebase was created to demonstrate a fully fledged fullstack application built with **VueJS/Vuex** including CRUD operations, authentication, routing, pagination, and more.
+# build for production with minification
+npm run build
 
-We've gone to great lengths to adhere to the **VueJS/Vuex** community styleguides & best practices.
+# build for production and view the bundle analyzer report
+npm run build --report
 
-For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
+# run unit tests
+npm run unit
 
+# run e2e tests
+npm run e2e
 
-# How it works
+# run all tests
+npm test
+```
 
-> Describe the general architecture of your app here
-
-# Getting started
-
-> npm install, npm start, etc.
-
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
